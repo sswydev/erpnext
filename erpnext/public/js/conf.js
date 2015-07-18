@@ -8,12 +8,12 @@ $(document).bind('toolbar_setup', function() {
 	frappe.app.name = "ERPNext";
 
 	frappe.help_feedback_link = '<p><a class="text-muted" \
-		href="https://discuss.erpnext.com">Feedback</a></p>'
+		href="">Feedback</a></p>'
 
 
-	$('.navbar-home').html('ERPNext');
+	$('.navbar-home').html('Torino');
 
-	$('[data-link="docs"]').attr("href", "https://manual.erpnext.com")
+	// $('[data-link="docs"]').attr("href", "https://manual.erpnext.com")
 });
 
 // doctypes created via tree
